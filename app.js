@@ -11,7 +11,7 @@ btn1.addEventListener("click", function() {
     let name = document.getElementById("user_name").value;
     let email = document.getElementById("user_email").value;
     let password = document.getElementById("user_password").value;
-    if (name.length < 5) {
+    if (name.length < 1) {
         document.getElementById("error").innerText = "Ошибка в имени";
         return;
     }
