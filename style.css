@@ -32,9 +32,9 @@ button {
     display: block;
     padding: 10px 20px;
     border: none;
-    background: #7D0256;
+    background: rgb(248, 168, 24);
     border-radius: 10px;
-    color: #98A7C5;
+    color: #fff;
     text-transform: uppercase;
     font-weight: 700;
     transition: background .2s linear;
@@ -68,19 +68,15 @@ input {
 }
 
 input:focus {
-    border-color: #7D0256;
+    border-color: #db5b5b;
 }
 
 h2 {
-    font-family: 'Font Squirrel';
-    color: #7D0256;
+    font-family: 'Apple Chancery, cursive';
+    color: #fff;
 }
 
 p {
-    font-family: 'Font Squirrel';
-    color: #7D0256;
-}
-
-body {
-    background-color: #98A7C5;
+    font-family: 'Apple Chancery, cursive';
+    color: #fff;
 }
