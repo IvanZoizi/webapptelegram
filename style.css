@@ -71,10 +71,12 @@ input:focus {
     border-color: #db5b5b;
 }
 
-h1 {
+h2 {
+    font-family: 'Apple Chancery, cursive';
     color: #fff;
 }
 
 p {
+    font-family: 'Apple Chancery, cursive';
     color: #fff;
 }
