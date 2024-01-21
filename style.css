@@ -27,8 +27,9 @@ body {
     text-align: center;
 }
 
-.btn {
-    display: inline-block;
+button {
+    margin: 0 auto;
+    display: block;
     padding: 10px 20px;
     border: none;
     background: rgb(248, 168, 24);
@@ -39,7 +40,7 @@ body {
     transition: background .2s linear;
 }
 
-.btn:hover {
+button:hover {
     background: lightgreen;
 }
 
@@ -49,6 +50,10 @@ body {
 
 #form {
     display: none;
+    text-align: center;
+}
+
+div {
     text-align: center;
 }
 
@@ -64,4 +69,12 @@ input {
 
 input:focus {
     border-color: #db5b5b;
+}
+
+h1 {
+    color: #fff;
+}
+
+p {
+    color: #fff;
 }
